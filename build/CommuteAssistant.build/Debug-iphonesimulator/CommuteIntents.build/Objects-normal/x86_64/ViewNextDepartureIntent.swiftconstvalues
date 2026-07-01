@@ -1,0 +1,98 @@
+[
+  {
+    "typeName": "CommuteIntents.ViewNextDepartureIntent",
+    "mangledTypeName": "14CommuteIntents23ViewNextDepartureIntentV",
+    "kind": "struct",
+    "file": "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ViewNextDepartureIntent.swift",
+    "line": 3,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "CommuteIntents"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.IntentResult",
+        "substitutedMangledTypeName": "14CommuteIntents23ViewNextDepartureIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.IntentResult"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy07CommuteB0017ViewNextDepartureC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ViewNextDepartureIntent.swift",
+        "line": 4,
+        "valueKind": "RawLiteral",
+        "value": "View Next Departure"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ViewNextDepartureIntent.swift",
+        "line": 5,
+        "valueKind": "RawLiteral",
+        "value": "Shows the next departure for your commute route"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ViewNextDepartureIntent.swift",
+        "line": 6,
+        "valueKind": "RawLiteral",
+        "value": "true"
+      }
+    ]
+  }
+]

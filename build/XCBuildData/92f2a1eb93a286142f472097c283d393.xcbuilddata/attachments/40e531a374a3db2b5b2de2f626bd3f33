@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/CommuteIntents-primary.dia",
+    "emit-module-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/CommuteIntents-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/CommuteIntents-primary-emit-module.dia",
+    "pch" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/CommuteIntents-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/CommuteIntents-primary.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/RefreshCommuteIntent.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.dia",
+    "index-unit-output-path" : "/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.o",
+    "llvm-bc" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.bc",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent.swiftdeps",
+    "swiftmodule" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/RefreshCommuteIntent~partial.swiftmodule"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ShortcutsProvider.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.dia",
+    "index-unit-output-path" : "/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.o",
+    "llvm-bc" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.bc",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider.swiftdeps",
+    "swiftmodule" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ShortcutsProvider~partial.swiftmodule"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/ViewNextDepartureIntent.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.dia",
+    "index-unit-output-path" : "/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.o",
+    "llvm-bc" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.bc",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent.swiftdeps",
+    "swiftmodule" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteIntents.build/Objects-normal/x86_64/ViewNextDepartureIntent~partial.swiftmodule"
+  }
+}

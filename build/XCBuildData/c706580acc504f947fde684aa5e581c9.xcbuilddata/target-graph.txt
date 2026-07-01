@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'CommuteIntents' in project 'CommuteAssistant'
+➜ Explicit dependency on target 'CommuteKit' in project 'CommuteAssistant'
+Target 'CommuteKit' in project 'CommuteAssistant' (no dependencies)

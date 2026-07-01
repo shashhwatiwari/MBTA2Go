@@ -1,0 +1,23 @@
+{
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Models/Disruption.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Disruption.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Disruption.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Disruption.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Disruption.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Disruption.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Networking/GTFSRealtimeClient.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/GTFSRealtimeClient.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/GTFSRealtimeClient.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/GTFSRealtimeClient.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/GTFSRealtimeClient.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/GTFSRealtimeClient.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Services/DisruptionEngine.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/DisruptionEngine.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/DisruptionEngine.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/DisruptionEngine.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/DisruptionEngine.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/DisruptionEngine.swiftdeps"
+  }
+}

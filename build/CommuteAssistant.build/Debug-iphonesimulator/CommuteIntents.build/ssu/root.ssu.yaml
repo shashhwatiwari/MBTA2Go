@@ -1,0 +1,50 @@
+apiVersion: ssu/v1
+nlu:
+  shortcuts:
+    bundleIdentifier: com.commuteassistant.app.intents
+    intents:
+    - metadata:
+        name: ViewNextDepartureIntent_0
+        title: View Next Departure
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Show my next ${+applicationName} departure'
+          - '{${+prefix} }When is my next train in ${+applicationName}'
+          - '{${+prefix} }Check ${+applicationName}'
+    - metadata:
+        name: RefreshCommuteIntent_1
+        title: Refresh Commute
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Refresh ${+applicationName}'
+          - '{${+prefix} }Update ${+applicationName} data'
+    - metadata:
+        name: +negative
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+variables:
+- name: +applicationName
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+    - CommuteIntents
+- name: +prefix
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/prefix/en.yaml
+- name: +standardAppShortcutNegatives
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/en.yaml

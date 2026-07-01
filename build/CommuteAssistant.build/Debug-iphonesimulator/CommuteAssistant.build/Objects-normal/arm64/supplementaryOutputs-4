@@ -1,0 +1,23 @@
+{
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/App/CommuteAssistantApp.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/CommuteAssistantApp.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/CommuteAssistantApp.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/CommuteAssistantApp.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/CommuteAssistantApp.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/CommuteAssistantApp.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/DesignSystem/Components/Card.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/Card.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/Card.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/Card.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/Card.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/Card.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/Features/Today/Components/DepartureCard.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/DepartureCard.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/DepartureCard.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/DepartureCard.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/DepartureCard.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/arm64/DepartureCard.swiftdeps"
+  }
+}

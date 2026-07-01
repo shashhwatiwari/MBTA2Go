@@ -1,0 +1,45 @@
+[
+  {
+    "typeName": "CommuteIntents.CommuteIntentsExtension",
+    "mangledTypeName": "14CommuteIntents0aB9ExtensionV",
+    "kind": "struct",
+    "file": "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteIntents/CommuteIntentsExtension.swift",
+    "line": 4,
+    "conformances": [
+      "AppIntents.AppIntentsExtension",
+      "ExtensionFoundation.AppExtension",
+      "Swift.Sendable",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntentsExtension",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "ExtensionFoundation.AppExtension",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "CommuteIntents"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "CommuteIntents"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "Configuration",
+        "substitutedTypeName": "some ExtensionFoundation.AppExtensionConfiguration",
+        "substitutedMangledTypeName": "10AppIntents0aB9ExtensionPAAE13configurationQrvpQOy07CommuteB00ebC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "ExtensionFoundation.AppExtensionConfiguration"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": []
+  }
+]

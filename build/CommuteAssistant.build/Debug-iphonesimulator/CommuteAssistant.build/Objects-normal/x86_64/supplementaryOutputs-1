@@ -1,0 +1,23 @@
+{
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/App/AppDependencies.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AppDependencies.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AppDependencies.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AppDependencies.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AppDependencies.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AppDependencies.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/Features/Alerts/AlertsFeedView.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsFeedView.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsFeedView.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsFeedView.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsFeedView.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsFeedView.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteAssistant/Features/Alerts/AlertsViewModel.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsViewModel.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsViewModel.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsViewModel.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteAssistant.build/Objects-normal/x86_64/AlertsViewModel.swiftdeps"
+  }
+}

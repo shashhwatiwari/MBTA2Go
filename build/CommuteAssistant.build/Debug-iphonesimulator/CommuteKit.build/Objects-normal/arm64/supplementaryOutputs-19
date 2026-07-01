@@ -1,0 +1,23 @@
+{
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Models/ServiceAlert.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/ServiceAlert.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/ServiceAlert.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/ServiceAlert.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/ServiceAlert.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/ServiceAlert.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Models/Stop.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Stop.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Stop.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Stop.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Stop.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/Stop.swiftdeps"
+  },
+  "/Users/shashwattiwari/Desktop/Projects/MyMBTA/CommuteKit/Persistence/SwiftDataStack.swift" : {
+    "const-values" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/SwiftDataStack.swiftconstvalues",
+    "dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/SwiftDataStack.d",
+    "diagnostics" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/SwiftDataStack.dia",
+    "object" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/SwiftDataStack.o",
+    "swift-dependencies" : "/Users/shashwattiwari/Desktop/Projects/MyMBTA/build/CommuteAssistant.build/Debug-iphonesimulator/CommuteKit.build/Objects-normal/arm64/SwiftDataStack.swiftdeps"
+  }
+}

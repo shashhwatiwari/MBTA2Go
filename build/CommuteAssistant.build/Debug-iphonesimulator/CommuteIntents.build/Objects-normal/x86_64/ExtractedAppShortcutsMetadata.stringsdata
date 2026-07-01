@@ -1,0 +1,57 @@
+{
+  "version" : 2,
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 4
+        },
+        "appShortcutMetadata" : [
+          {
+            "index" : 0,
+            "actionIdentifier" : "ViewNextDepartureIntent",
+            "parameterTypes" : {
+
+            },
+            "title" : "View Next Departure",
+            "parameterDisplayRepresentations" : {
+
+            }
+          }
+        ],
+        "values" : [
+          "Show my next ${applicationName} departure",
+          "When is my next train in ${applicationName}",
+          "Check ${applicationName}"
+        ],
+        "key" : "Show my next ${applicationName} departure"
+      },
+      {
+        "location" : {
+          "startingLine" : 4,
+          "startingColumn" : 0
+        },
+        "appShortcutMetadata" : [
+          {
+            "title" : "Refresh Commute",
+            "index" : 1,
+            "actionIdentifier" : "RefreshCommuteIntent",
+            "parameterTypes" : {
+
+            },
+            "parameterDisplayRepresentations" : {
+
+            }
+          }
+        ],
+        "values" : [
+          "Refresh ${applicationName}",
+          "Update ${applicationName} data"
+        ],
+        "key" : "Refresh ${applicationName}"
+      }
+    ]
+  },
+  "source" : "\/Users\/shashwattiwari\/Desktop\/Projects\/MyMBTA\/CommuteIntents\/ShortcutsProvider.swift"
+}

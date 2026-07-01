@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02069940CB143D0C98DCA12E /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A8A22FC3B4DF0DC968507 /* TodayViewModel.swift */; };
+		036B5867C863711EE480755C /* CommuteIntentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE17A18AE7BEDF9E9EC4EA2 /* CommuteIntentsExtension.swift */; };
+		04BCA0C5CE1957FBF92AF783 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB102E32D2E3CD0764FC5534 /* Stop.swift */; };
+		04F5A78AA0BC3704ABE0E241 /* AlertsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145B0EE4F216273E42BE58FC /* AlertsFeedView.swift */; };
+		072426CA2A1E269F9A063FB4 /* RateLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DC19960ADA02EE9973C7D /* RateLimiter.swift */; };
+		094804B1CDBFD052CF3030D7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AA4A43D43AA8584E15AA2 /* RootView.swift */; };
+		09C397BEFC485BDAC7F5296F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830B6CC5DBDACE09FF327A1 /* Card.swift */; };
+		1648F10DF6ED5ED463105015 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85879BD4FF58F4E685587550 /* Typography.swift */; };
+		1902F8D80A405C1F3E076423 /* RouteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E77CCE5B833965D2B7B084 /* RouteListView.swift */; };
+		1E5D63AAE4E97374A1DF855E /* CommuteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; };
+		24CB4F2B3342D0D8240FFABC /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B13817062DA86FECF20AE5 /* LocationService.swift */; };
+		2660868D9D31A0E8A3B68FCF /* CommuteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; };
+		28DEF007195F775DAE328BA2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF035D4C25C3A865FDD29BBF /* Theme.swift */; };
+		2A502A19CE41767D9D6E4464 /* NextDepartureWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5687F4AB990B6053023CB0 /* NextDepartureWidget.swift */; };
+		2AC6AE2E6A8E1EC60F866305 /* DisruptionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504AA1D3B0FD78B0EE4EC8E6 /* DisruptionBanner.swift */; };
+		32E6029B6FCDC57BE2F61EA1 /* GTFSRealtimeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E2005A1FCD866B64688E9 /* GTFSRealtimeClient.swift */; };
+		3A9910026B319B1AF3F02271 /* Logger+Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB51C9EEC8BAA9F7236E4710 /* Logger+Categories.swift */; };
+		41F0499C47FF2ADBD8F49A2F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F775F6C00B9BBA2CA2A042B /* Schedule.swift */; };
+		42888136DF77D00A49A94EF9 /* CommuteKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		447E4FD41D11151B26D44078 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59ADF5C81CB6279753DA105 /* Trip.swift */; };
+		4B88FE90B6B34418D44E5097 /* ReliabilityScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF710A3755AF413497BE53C /* ReliabilityScore.swift */; };
+		4F267BD6FE98841CD4CADF27 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24118CC8C115C5565F3AF0 /* Clock.swift */; };
+		56C383D0AF5AC556C8568EFC /* AlertsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B788D16800CE9080794419 /* AlertsViewModel.swift */; };
+		573A681C9A7F04AE28B797DB /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB57540DF861316823B2E8 /* Provider.swift */; };
+		57B292C5C42E922B63793664 /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062A0DBAF1EEE140C8F6BF7 /* RouteViewModel.swift */; };
+		5A7AA07660CB686A499133C3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD2A4973AD12F242A7E7A95 /* Endpoints.swift */; };
+		5C1F51053521F69A8F08475A /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A04CDDD49701839965FD6 /* LiveActivityService.swift */; };
+		602C2BA99DF5C178CA91C7CC /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5602B044A241894C5A5BDAB /* APIError.swift */; };
+		632B71B2363ED8828FEF53DC /* Disruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C84980C62FC7AEDBBFED2 /* Disruption.swift */; };
+		6CE929604497FF25A05EE694 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996310AABA0638EBF42C9C5 /* TodayView.swift */; };
+		6DFFE4BC5B92882505C4C3CD /* PermissionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9022DC5F213F958B3F20C2 /* PermissionsCoordinator.swift */; };
+		70E8A84EE92C5FA08A688007 /* DisruptionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472912F5152D601C212A0255 /* DisruptionEngine.swift */; };
+		71706E28A7757E23C173EA07 /* CommuteAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E24A74D4F057789E9342C /* CommuteAssistantApp.swift */; };
+		75A4FAE20FFA2368571356CA /* CommuteIntents.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 0742C4A257A3069D91A2C62B /* CommuteIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76603DCE359E37C9E723797E /* CommuteWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 141025B003B3760276A2C71F /* CommuteWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7715630A80C12A9ED8CAD4CA /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE307744B59AF131237FAF8 /* RouteDetailView.swift */; };
+		796E27D5A930268E23991621 /* RouteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2879A8E0B62D6207921C8428 /* RouteEditorView.swift */; };
+		7BADCD2879D570A531C0A6E8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0AAB157D9787A375937 /* NotificationService.swift */; };
+		809DBEECEF5E88894F0A0998 /* ReliabilityChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B8E56F5034D9CE79B114C /* ReliabilityChip.swift */; };
+		8158C3CFFA3B1975DAAD0FB8 /* DepartureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414645C248649A32BA0A3A2 /* DepartureCard.swift */; };
+		82804C73BDEADBF172F5FAB0 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB1B312A5032B3B3711A0E /* Route.swift */; };
+		83400EE90092FDCE482B3526 /* AlternativeRouteSuggester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A645897A8543B9440B1D06F /* AlternativeRouteSuggester.swift */; };
+		83DBA730175413082297D7AB /* RouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD030074F7D165555F125E4C /* RouteMatcher.swift */; };
+		842A2147D412E4A5AFAE63B9 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB5149002F1859B7E3B2C7 /* AppDependencies.swift */; };
+		8EF158CF6C9DE2F19E65231D /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294A85C5113FF6F55CFDEE6C /* Prediction.swift */; };
+		8F3E530413A04D2DEAB67C23 /* CommuteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; };
+		8F48F3CE0DE6BBC106050850 /* CommuteLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91EA552B3B0D78C605FD353 /* CommuteLiveActivity.swift */; };
+		94F162DC82703755564A6F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4270F54484DB18A8435E21 /* Assets.xcassets */; };
+		95ECE99A362FEFEDDC76461F /* RouteMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD6F8223183D085B7C6B23 /* RouteMatcherTests.swift */; };
+		A04DA08C5403BD39E83A28B1 /* DisruptionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A652488F3FDBDA6F6631C2D /* DisruptionEngineTests.swift */; };
+		A601B7AEB27C52723CF68F4D /* Schema+V1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB2C06A3F519AEB4BF1A53 /* Schema+V1.swift */; };
+		A641EFD5F0463335B0E64304 /* StatusDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59201435E8BE159107195AB2 /* StatusDot.swift */; };
+		BA80DDA69F12BA1ED04A0BCF /* NotificationPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED8F24A7E38B1AFD3F4B0B /* NotificationPreferencesView.swift */; };
+		C0E0AE1F4117D703DFB98C4C /* BackgroundRefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA8B25416AE8BE3C724990 /* BackgroundRefreshService.swift */; };
+		C61491FAF6C9436E46D160E9 /* ShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA1E087F61C0FEA5F80286 /* ShortcutsProvider.swift */; };
+		C732CE4B6340052F449A6597 /* RefreshCommuteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79636E2E71EFC5DB47D1D0 /* RefreshCommuteIntent.swift */; };
+		CD7C11C9447C9B887002A6AE /* SeverityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0315DD8C5C90D7C11FDE20A /* SeverityBadge.swift */; };
+		CDC612ECE37DA88F7CA29B6D /* ViewNextDepartureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7B0265A5BC54542CA8C04C /* ViewNextDepartureIntent.swift */; };
+		CDE7D252B3A471074C1C64DF /* ServiceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AAA6BF7321CE8C85189F8 /* ServiceAlert.swift */; };
+		CE287EACF50A64F10A483FA9 /* ReliabilityScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC33B9A95E1FB2642BE795 /* ReliabilityScorerTests.swift */; };
+		D27A2A721B874A2258F0154B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B91B28CC78AAE9B1BE9D94 /* SettingsView.swift */; };
+		D55DB6A3782C698943FCFB28 /* CommuteWindowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225621DA1C596BEF00AA3415 /* CommuteWindowResolver.swift */; };
+		D5D997150BA6464E2C9A572F /* CommuteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04853055DB7584B9CDEA1929 /* CommuteWidgetBundle.swift */; };
+		D877C07302EEE065EAB4D8EF /* CommuteKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC8D9EE1D20133743E1423CC /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21021AEE1F6196CA7817FB2A /* Secrets.swift */; };
+		DE4EE672D7229B8780142555 /* CommuteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D19B34C52780C574234A /* CommuteKit.framework */; };
+		E50B02C7F25E0EF1FCE130D9 /* ReliabilityScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D947DB8AC4CA49D4DC819 /* ReliabilityScorer.swift */; };
+		E6F41D8FFD208B554120C2E2 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F30E50C522A35813F5D071 /* Cache.swift */; };
+		E7D1829B02C6B2DEE5385A45 /* CommuteWindowResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000AA88C799F84B2C95FD4FB /* CommuteWindowResolverTests.swift */; };
+		ECA45A3565AD5F22BB45754F /* JSONAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4788533EF84071466DD95 /* JSONAPIModels.swift */; };
+		F0516AF4D0C8E2A66153C0C2 /* MBTAClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50992B45553A68D78F9AA4D5 /* MBTAClient.swift */; };
+		F13D47CB059D1F403FE30684 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C894C3B6D891F66C5709E /* Vehicle.swift */; };
+		F29A221662D76D51601B493F /* LoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDEB88FFDC4491BA0B1437B /* LoadState.swift */; };
+		F3E18E8CACCBB960292EDA14 /* SwiftDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0141826ECC927A82C629C0 /* SwiftDataStack.swift */; };
+		F5B4BE385109240B677127BE /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045FFE4510FC66F42825358 /* OnboardingFlow.swift */; };
+		F76C14A0648A9D08AF6FA8E3 /* RouteLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265EBC5CCB1B563C43702B1C /* RouteLine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C753BD916B3EFBD2F786AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510BA27CA27BF4E40E744975;
+			remoteInfo = CommuteKit;
+		};
+		4C1C260346D3B63ABAF79123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510BA27CA27BF4E40E744975;
+			remoteInfo = CommuteKit;
+		};
+		A544854914DBF3B10753A207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510BA27CA27BF4E40E744975;
+			remoteInfo = CommuteKit;
+		};
+		A59EE7E24FAD9DBC8DE07B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9032C697696ED476977561E1;
+			remoteInfo = CommuteWidgets;
+		};
+		C3F63C8215C475E923B6CFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510BA27CA27BF4E40E744975;
+			remoteInfo = CommuteKit;
+		};
+		E2C174BCCF91AFC164DEA8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AC492937AB259D2D5303BE;
+			remoteInfo = CommuteIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EE9A958A1BC6048746C691B /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				75A4FAE20FFA2368571356CA /* CommuteIntents.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A91D2F0A62E1738747FAA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42888136DF77D00A49A94EF9 /* CommuteKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DDACAFEE200AE2216C0086 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76603DCE359E37C9E723797E /* CommuteWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C436B83A66F908CACB0A0330 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D877C07302EEE065EAB4D8EF /* CommuteKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000AA88C799F84B2C95FD4FB /* CommuteWindowResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteWindowResolverTests.swift; sourceTree = "<group>"; };
+		04853055DB7584B9CDEA1929 /* CommuteWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteWidgetBundle.swift; sourceTree = "<group>"; };
+		0742C4A257A3069D91A2C62B /* CommuteIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = CommuteIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A645897A8543B9440B1D06F /* AlternativeRouteSuggester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeRouteSuggester.swift; sourceTree = "<group>"; };
+		0A652488F3FDBDA6F6631C2D /* DisruptionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisruptionEngineTests.swift; sourceTree = "<group>"; };
+		0A93B5E06E0BC8A90362FD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0EE17A18AE7BEDF9E9EC4EA2 /* CommuteIntentsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteIntentsExtension.swift; sourceTree = "<group>"; };
+		13D9C0AAB157D9787A375937 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		141025B003B3760276A2C71F /* CommuteWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = CommuteWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		145B0EE4F216273E42BE58FC /* AlertsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsFeedView.swift; sourceTree = "<group>"; };
+		1B5687F4AB990B6053023CB0 /* NextDepartureWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDepartureWidget.swift; sourceTree = "<group>"; };
+		1E2A04CDDD49701839965FD6 /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
+		1EDEB88FFDC4491BA0B1437B /* LoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadState.swift; sourceTree = "<group>"; };
+		21021AEE1F6196CA7817FB2A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		225621DA1C596BEF00AA3415 /* CommuteWindowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteWindowResolver.swift; sourceTree = "<group>"; };
+		265EBC5CCB1B563C43702B1C /* RouteLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteLine.swift; sourceTree = "<group>"; };
+		2879A8E0B62D6207921C8428 /* RouteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEditorView.swift; sourceTree = "<group>"; };
+		294A85C5113FF6F55CFDEE6C /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		2A7B0265A5BC54542CA8C04C /* ViewNextDepartureIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNextDepartureIntent.swift; sourceTree = "<group>"; };
+		2B6E2005A1FCD866B64688E9 /* GTFSRealtimeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTFSRealtimeClient.swift; sourceTree = "<group>"; };
+		2E4270F54484DB18A8435E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34E77CCE5B833965D2B7B084 /* RouteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteListView.swift; sourceTree = "<group>"; };
+		367C84980C62FC7AEDBBFED2 /* Disruption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disruption.swift; sourceTree = "<group>"; };
+		3996310AABA0638EBF42C9C5 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		40FB1B312A5032B3B3711A0E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		472912F5152D601C212A0255 /* DisruptionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisruptionEngine.swift; sourceTree = "<group>"; };
+		4A0141826ECC927A82C629C0 /* SwiftDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStack.swift; sourceTree = "<group>"; };
+		4F775F6C00B9BBA2CA2A042B /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		504AA1D3B0FD78B0EE4EC8E6 /* DisruptionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisruptionBanner.swift; sourceTree = "<group>"; };
+		50992B45553A68D78F9AA4D5 /* MBTAClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTAClient.swift; sourceTree = "<group>"; };
+		530D947DB8AC4CA49D4DC819 /* ReliabilityScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliabilityScorer.swift; sourceTree = "<group>"; };
+		59201435E8BE159107195AB2 /* StatusDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDot.swift; sourceTree = "<group>"; };
+		5F24118CC8C115C5565F3AF0 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		617DC19960ADA02EE9973C7D /* RateLimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateLimiter.swift; sourceTree = "<group>"; };
+		6A2A8A22FC3B4DF0DC968507 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		7045FFE4510FC66F42825358 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		731B8E56F5034D9CE79B114C /* ReliabilityChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliabilityChip.swift; sourceTree = "<group>"; };
+		7830B6CC5DBDACE09FF327A1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		799C376F76B21D1E2B05FE42 /* CommuteKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CommuteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAC33B9A95E1FB2642BE795 /* ReliabilityScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliabilityScorerTests.swift; sourceTree = "<group>"; };
+		7EED8F24A7E38B1AFD3F4B0B /* NotificationPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreferencesView.swift; sourceTree = "<group>"; };
+		7FF710A3755AF413497BE53C /* ReliabilityScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliabilityScore.swift; sourceTree = "<group>"; };
+		84C4788533EF84071466DD95 /* JSONAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAPIModels.swift; sourceTree = "<group>"; };
+		85879BD4FF58F4E685587550 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		8B4C894C3B6D891F66C5709E /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		8BAA4EC64D702946B9133B16 /* CommuteAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommuteAssistant.entitlements; sourceTree = "<group>"; };
+		9414645C248649A32BA0A3A2 /* DepartureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureCard.swift; sourceTree = "<group>"; };
+		94B788D16800CE9080794419 /* AlertsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsViewModel.swift; sourceTree = "<group>"; };
+		9B9022DC5F213F958B3F20C2 /* PermissionsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsCoordinator.swift; sourceTree = "<group>"; };
+		9D7AAA6BF7321CE8C85189F8 /* ServiceAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAlert.swift; sourceTree = "<group>"; };
+		A0315DD8C5C90D7C11FDE20A /* SeverityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverityBadge.swift; sourceTree = "<group>"; };
+		A062A0DBAF1EEE140C8F6BF7 /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		A5602B044A241894C5A5BDAB /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A7FD6F8223183D085B7C6B23 /* RouteMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMatcherTests.swift; sourceTree = "<group>"; };
+		AA6AA4A43D43AA8584E15AA2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AD030074F7D165555F125E4C /* RouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMatcher.swift; sourceTree = "<group>"; };
+		BB102E32D2E3CD0764FC5534 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		BE2F10BEF37609A16B5E6539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE79636E2E71EFC5DB47D1D0 /* RefreshCommuteIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshCommuteIntent.swift; sourceTree = "<group>"; };
+		C7B13817062DA86FECF20AE5 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		CB51C9EEC8BAA9F7236E4710 /* Logger+Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Categories.swift"; sourceTree = "<group>"; };
+		D5B91B28CC78AAE9B1BE9D94 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D9A9E5FAFE1480C51C4C2457 /* CommuteAssistant.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CommuteAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE307744B59AF131237FAF8 /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		DCBB2C06A3F519AEB4BF1A53 /* Schema+V1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schema+V1.swift"; sourceTree = "<group>"; };
+		DF035D4C25C3A865FDD29BBF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E4F30E50C522A35813F5D071 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		E59ADF5C81CB6279753DA105 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		E79E24A74D4F057789E9342C /* CommuteAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteAssistantApp.swift; sourceTree = "<group>"; };
+		E9B6D19B34C52780C574234A /* CommuteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommuteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDA1E087F61C0FEA5F80286 /* ShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsProvider.swift; sourceTree = "<group>"; };
+		F4DB5149002F1859B7E3B2C7 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		F6AA8B25416AE8BE3C724990 /* BackgroundRefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshService.swift; sourceTree = "<group>"; };
+		F7DB57540DF861316823B2E8 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		F8137D0BC4032358E8946A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F91EA552B3B0D78C605FD353 /* CommuteLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteLiveActivity.swift; sourceTree = "<group>"; };
+		FBD2A4973AD12F242A7E7A95 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CC27957C8AD07B21A3A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2660868D9D31A0E8A3B68FCF /* CommuteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F71E678939E79F5AB4A77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3E530413A04D2DEAB67C23 /* CommuteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84346415C052B77E45FF9A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EE672D7229B8780142555 /* CommuteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A5F84297D390C996DFE322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5D63AAE4E97374A1DF855E /* CommuteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013B988BEA431CBE9507A9CD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E4F30E50C522A35813F5D071 /* Cache.swift */,
+				5F24118CC8C115C5565F3AF0 /* Clock.swift */,
+				CB51C9EEC8BAA9F7236E4710 /* Logger+Categories.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		16C9B4A2B28C7A98B3D38652 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7EED8F24A7E38B1AFD3F4B0B /* NotificationPreferencesView.swift */,
+				D5B91B28CC78AAE9B1BE9D94 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		219319B00E6FAC7338555708 = {
+			isa = PBXGroup;
+			children = (
+				747EE333EB4B90B9EBDDDAEA /* CommuteAssistant */,
+				FA1202EBD96F134EE19A0EC0 /* CommuteIntents */,
+				CFD5035003DDD642D8098F9A /* CommuteKit */,
+				2424E060F99339528F8B7C85 /* CommuteKitTests */,
+				E22A3CE6548C1CC17154D581 /* CommuteWidgets */,
+				F757A8E00374CDBFD0B05AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2424E060F99339528F8B7C85 /* CommuteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				000AA88C799F84B2C95FD4FB /* CommuteWindowResolverTests.swift */,
+				0A652488F3FDBDA6F6631C2D /* DisruptionEngineTests.swift */,
+				7BAC33B9A95E1FB2642BE795 /* ReliabilityScorerTests.swift */,
+				A7FD6F8223183D085B7C6B23 /* RouteMatcherTests.swift */,
+			);
+			path = CommuteKitTests;
+			sourceTree = "<group>";
+		};
+		2FA8A9BE3DE139E3BEBD3BB6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA8B25416AE8BE3C724990 /* BackgroundRefreshService.swift */,
+				472912F5152D601C212A0255 /* DisruptionEngine.swift */,
+				1E2A04CDDD49701839965FD6 /* LiveActivityService.swift */,
+				C7B13817062DA86FECF20AE5 /* LocationService.swift */,
+				13D9C0AAB157D9787A375937 /* NotificationService.swift */,
+				530D947DB8AC4CA49D4DC819 /* ReliabilityScorer.swift */,
+				AD030074F7D165555F125E4C /* RouteMatcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3326898738CA2DB9A94E9DF6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB2C06A3F519AEB4BF1A53 /* Schema+V1.swift */,
+				4A0141826ECC927A82C629C0 /* SwiftDataStack.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		37D226BF22F4B7C5825F1716 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				145B0EE4F216273E42BE58FC /* AlertsFeedView.swift */,
+				94B788D16800CE9080794419 /* AlertsViewModel.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		59952AB095FEAC5EEE087BD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				367C84980C62FC7AEDBBFED2 /* Disruption.swift */,
+				1EDEB88FFDC4491BA0B1437B /* LoadState.swift */,
+				294A85C5113FF6F55CFDEE6C /* Prediction.swift */,
+				7FF710A3755AF413497BE53C /* ReliabilityScore.swift */,
+				40FB1B312A5032B3B3711A0E /* Route.swift */,
+				265EBC5CCB1B563C43702B1C /* RouteLine.swift */,
+				4F775F6C00B9BBA2CA2A042B /* Schedule.swift */,
+				9D7AAA6BF7321CE8C85189F8 /* ServiceAlert.swift */,
+				BB102E32D2E3CD0764FC5534 /* Stop.swift */,
+				E59ADF5C81CB6279753DA105 /* Trip.swift */,
+				8B4C894C3B6D891F66C5709E /* Vehicle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		747EE333EB4B90B9EBDDDAEA /* CommuteAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				D0C27B2410FB0E73B02BEF41 /* App */,
+				F7D919498CC47D4B1DE33530 /* DesignSystem */,
+				A598CDFA6CC151782A6129D2 /* Features */,
+				DE3FB5921380A1E9F73CDAA0 /* Resources */,
+				8BAA4EC64D702946B9133B16 /* CommuteAssistant.entitlements */,
+				0A93B5E06E0BC8A90362FD5B /* Info.plist */,
+			);
+			path = CommuteAssistant;
+			sourceTree = "<group>";
+		};
+		7B3BC9EC1749D3DB26D842D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A5602B044A241894C5A5BDAB /* APIError.swift */,
+				FBD2A4973AD12F242A7E7A95 /* Endpoints.swift */,
+				2B6E2005A1FCD866B64688E9 /* GTFSRealtimeClient.swift */,
+				84C4788533EF84071466DD95 /* JSONAPIModels.swift */,
+				50992B45553A68D78F9AA4D5 /* MBTAClient.swift */,
+				617DC19960ADA02EE9973C7D /* RateLimiter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		842EEC4B2A50B0C60E8EFA10 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7830B6CC5DBDACE09FF327A1 /* Card.swift */,
+				A0315DD8C5C90D7C11FDE20A /* SeverityBadge.swift */,
+				59201435E8BE159107195AB2 /* StatusDot.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8474D401B5A3A33807C5131B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A8F61E74E7FDE4A775743316 /* Components */,
+				3996310AABA0638EBF42C9C5 /* TodayView.swift */,
+				6A2A8A22FC3B4DF0DC968507 /* TodayViewModel.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		99F439537B17CFC63C91F92B /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				0A645897A8543B9440B1D06F /* AlternativeRouteSuggester.swift */,
+				225621DA1C596BEF00AA3415 /* CommuteWindowResolver.swift */,
+			);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		A598CDFA6CC151782A6129D2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				37D226BF22F4B7C5825F1716 /* Alerts */,
+				B831229A32D7C141E6A708B7 /* Onboarding */,
+				C92CEA0514309E75C03DF160 /* Routes */,
+				16C9B4A2B28C7A98B3D38652 /* Settings */,
+				8474D401B5A3A33807C5131B /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A8F61E74E7FDE4A775743316 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9414645C248649A32BA0A3A2 /* DepartureCard.swift */,
+				504AA1D3B0FD78B0EE4EC8E6 /* DisruptionBanner.swift */,
+				731B8E56F5034D9CE79B114C /* ReliabilityChip.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B831229A32D7C141E6A708B7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7045FFE4510FC66F42825358 /* OnboardingFlow.swift */,
+				9B9022DC5F213F958B3F20C2 /* PermissionsCoordinator.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C92CEA0514309E75C03DF160 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				DBE307744B59AF131237FAF8 /* RouteDetailView.swift */,
+				2879A8E0B62D6207921C8428 /* RouteEditorView.swift */,
+				34E77CCE5B833965D2B7B084 /* RouteListView.swift */,
+				A062A0DBAF1EEE140C8F6BF7 /* RouteViewModel.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		CFD5035003DDD642D8098F9A /* CommuteKit */ = {
+			isa = PBXGroup;
+			children = (
+				99F439537B17CFC63C91F92B /* Intelligence */,
+				59952AB095FEAC5EEE087BD9 /* Models */,
+				7B3BC9EC1749D3DB26D842D8 /* Networking */,
+				3326898738CA2DB9A94E9DF6 /* Persistence */,
+				2FA8A9BE3DE139E3BEBD3BB6 /* Services */,
+				013B988BEA431CBE9507A9CD /* Utilities */,
+				21021AEE1F6196CA7817FB2A /* Secrets.swift */,
+			);
+			path = CommuteKit;
+			sourceTree = "<group>";
+		};
+		D0C27B2410FB0E73B02BEF41 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB5149002F1859B7E3B2C7 /* AppDependencies.swift */,
+				E79E24A74D4F057789E9342C /* CommuteAssistantApp.swift */,
+				AA6AA4A43D43AA8584E15AA2 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE3FB5921380A1E9F73CDAA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E4270F54484DB18A8435E21 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22A3CE6548C1CC17154D581 /* CommuteWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				F91EA552B3B0D78C605FD353 /* CommuteLiveActivity.swift */,
+				04853055DB7584B9CDEA1929 /* CommuteWidgetBundle.swift */,
+				F8137D0BC4032358E8946A6F /* Info.plist */,
+				1B5687F4AB990B6053023CB0 /* NextDepartureWidget.swift */,
+				F7DB57540DF861316823B2E8 /* Provider.swift */,
+			);
+			path = CommuteWidgets;
+			sourceTree = "<group>";
+		};
+		F757A8E00374CDBFD0B05AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9E5FAFE1480C51C4C2457 /* CommuteAssistant.app */,
+				0742C4A257A3069D91A2C62B /* CommuteIntents.appex */,
+				E9B6D19B34C52780C574234A /* CommuteKit.framework */,
+				799C376F76B21D1E2B05FE42 /* CommuteKitTests.xctest */,
+				141025B003B3760276A2C71F /* CommuteWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D919498CC47D4B1DE33530 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				842EEC4B2A50B0C60E8EFA10 /* Components */,
+				DF035D4C25C3A865FDD29BBF /* Theme.swift */,
+				85879BD4FF58F4E685587550 /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		FA1202EBD96F134EE19A0EC0 /* CommuteIntents */ = {
+			isa = PBXGroup;
+			children = (
+				0EE17A18AE7BEDF9E9EC4EA2 /* CommuteIntentsExtension.swift */,
+				BE2F10BEF37609A16B5E6539 /* Info.plist */,
+				BE79636E2E71EFC5DB47D1D0 /* RefreshCommuteIntent.swift */,
+				EDDA1E087F61C0FEA5F80286 /* ShortcutsProvider.swift */,
+				2A7B0265A5BC54542CA8C04C /* ViewNextDepartureIntent.swift */,
+			);
+			path = CommuteIntents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179009A624C6D6501D6C9EF9 /* CommuteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD0A271EE5E8CBE189D71A /* Build configuration list for PBXNativeTarget "CommuteKitTests" */;
+			buildPhases = (
+				BE03B3A3B9AF63EA4D187479 /* Sources */,
+				59F71E678939E79F5AB4A77E /* Frameworks */,
+				80A91D2F0A62E1738747FAA6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C661D2D9D64A110347A482EF /* PBXTargetDependency */,
+			);
+			name = CommuteKitTests;
+			packageProductDependencies = (
+			);
+			productName = CommuteKitTests;
+			productReference = 799C376F76B21D1E2B05FE42 /* CommuteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		510BA27CA27BF4E40E744975 /* CommuteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F621710EA5D452E4E7E3C8 /* Build configuration list for PBXNativeTarget "CommuteKit" */;
+			buildPhases = (
+				504AC6637E24D6DD696FDA62 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommuteKit;
+			packageProductDependencies = (
+			);
+			productName = CommuteKit;
+			productReference = E9B6D19B34C52780C574234A /* CommuteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9032C697696ED476977561E1 /* CommuteWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4099892A989D477E6DFC25 /* Build configuration list for PBXNativeTarget "CommuteWidgets" */;
+			buildPhases = (
+				4E7A0E31094D8920C4840722 /* Sources */,
+				84346415C052B77E45FF9A9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEAA2F4F288123EF7AD3CF41 /* PBXTargetDependency */,
+			);
+			name = CommuteWidgets;
+			packageProductDependencies = (
+			);
+			productName = CommuteWidgets;
+			productReference = 141025B003B3760276A2C71F /* CommuteWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A0D2237E2EA272A7025941FD /* CommuteAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7646370DCE66E2A19ED649E7 /* Build configuration list for PBXNativeTarget "CommuteAssistant" */;
+			buildPhases = (
+				C77C5104A053547C9BF32FAE /* Sources */,
+				889D547304939F2BCF13382E /* Resources */,
+				22CC27957C8AD07B21A3A96F /* Frameworks */,
+				92DDACAFEE200AE2216C0086 /* Embed Foundation Extensions */,
+				0EE9A958A1BC6048746C691B /* Embed ExtensionKit Extensions */,
+				C436B83A66F908CACB0A0330 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07180A428B7AEF25F563FAB9 /* PBXTargetDependency */,
+				3F69BDA6532B4FA1CB1D376C /* PBXTargetDependency */,
+				178D9AC4DF4F7A4ADAFB3EAC /* PBXTargetDependency */,
+			);
+			name = CommuteAssistant;
+			packageProductDependencies = (
+			);
+			productName = CommuteAssistant;
+			productReference = D9A9E5FAFE1480C51C4C2457 /* CommuteAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0AC492937AB259D2D5303BE /* CommuteIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57D06411C40951C0F62D196 /* Build configuration list for PBXNativeTarget "CommuteIntents" */;
+			buildPhases = (
+				F5221CF1F3D6AD8D16A48400 /* Sources */,
+				94A5F84297D390C996DFE322 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C7FF6C7F441FF694521C32 /* PBXTargetDependency */,
+			);
+			name = CommuteIntents;
+			packageProductDependencies = (
+			);
+			productName = CommuteIntents;
+			productReference = 0742C4A257A3069D91A2C62B /* CommuteIntents.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDD0EB3A402F6DCE80B8E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0C219E43AD96361F5422F9EE /* Build configuration list for PBXProject "CommuteAssistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 219319B00E6FAC7338555708;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F757A8E00374CDBFD0B05AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D2237E2EA272A7025941FD /* CommuteAssistant */,
+				C0AC492937AB259D2D5303BE /* CommuteIntents */,
+				510BA27CA27BF4E40E744975 /* CommuteKit */,
+				179009A624C6D6501D6C9EF9 /* CommuteKitTests */,
+				9032C697696ED476977561E1 /* CommuteWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889D547304939F2BCF13382E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F162DC82703755564A6F81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7A0E31094D8920C4840722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F48F3CE0DE6BBC106050850 /* CommuteLiveActivity.swift in Sources */,
+				D5D997150BA6464E2C9A572F /* CommuteWidgetBundle.swift in Sources */,
+				2A502A19CE41767D9D6E4464 /* NextDepartureWidget.swift in Sources */,
+				573A681C9A7F04AE28B797DB /* Provider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504AC6637E24D6DD696FDA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602C2BA99DF5C178CA91C7CC /* APIError.swift in Sources */,
+				83400EE90092FDCE482B3526 /* AlternativeRouteSuggester.swift in Sources */,
+				C0E0AE1F4117D703DFB98C4C /* BackgroundRefreshService.swift in Sources */,
+				E6F41D8FFD208B554120C2E2 /* Cache.swift in Sources */,
+				4F267BD6FE98841CD4CADF27 /* Clock.swift in Sources */,
+				D55DB6A3782C698943FCFB28 /* CommuteWindowResolver.swift in Sources */,
+				632B71B2363ED8828FEF53DC /* Disruption.swift in Sources */,
+				70E8A84EE92C5FA08A688007 /* DisruptionEngine.swift in Sources */,
+				5A7AA07660CB686A499133C3 /* Endpoints.swift in Sources */,
+				32E6029B6FCDC57BE2F61EA1 /* GTFSRealtimeClient.swift in Sources */,
+				ECA45A3565AD5F22BB45754F /* JSONAPIModels.swift in Sources */,
+				5C1F51053521F69A8F08475A /* LiveActivityService.swift in Sources */,
+				F29A221662D76D51601B493F /* LoadState.swift in Sources */,
+				24CB4F2B3342D0D8240FFABC /* LocationService.swift in Sources */,
+				3A9910026B319B1AF3F02271 /* Logger+Categories.swift in Sources */,
+				F0516AF4D0C8E2A66153C0C2 /* MBTAClient.swift in Sources */,
+				7BADCD2879D570A531C0A6E8 /* NotificationService.swift in Sources */,
+				8EF158CF6C9DE2F19E65231D /* Prediction.swift in Sources */,
+				072426CA2A1E269F9A063FB4 /* RateLimiter.swift in Sources */,
+				4B88FE90B6B34418D44E5097 /* ReliabilityScore.swift in Sources */,
+				E50B02C7F25E0EF1FCE130D9 /* ReliabilityScorer.swift in Sources */,
+				82804C73BDEADBF172F5FAB0 /* Route.swift in Sources */,
+				F76C14A0648A9D08AF6FA8E3 /* RouteLine.swift in Sources */,
+				83DBA730175413082297D7AB /* RouteMatcher.swift in Sources */,
+				41F0499C47FF2ADBD8F49A2F /* Schedule.swift in Sources */,
+				A601B7AEB27C52723CF68F4D /* Schema+V1.swift in Sources */,
+				DC8D9EE1D20133743E1423CC /* Secrets.swift in Sources */,
+				CDE7D252B3A471074C1C64DF /* ServiceAlert.swift in Sources */,
+				04BCA0C5CE1957FBF92AF783 /* Stop.swift in Sources */,
+				F3E18E8CACCBB960292EDA14 /* SwiftDataStack.swift in Sources */,
+				447E4FD41D11151B26D44078 /* Trip.swift in Sources */,
+				F13D47CB059D1F403FE30684 /* Vehicle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE03B3A3B9AF63EA4D187479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D1829B02C6B2DEE5385A45 /* CommuteWindowResolverTests.swift in Sources */,
+				A04DA08C5403BD39E83A28B1 /* DisruptionEngineTests.swift in Sources */,
+				CE287EACF50A64F10A483FA9 /* ReliabilityScorerTests.swift in Sources */,
+				95ECE99A362FEFEDDC76461F /* RouteMatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77C5104A053547C9BF32FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5A78AA0BC3704ABE0E241 /* AlertsFeedView.swift in Sources */,
+				56C383D0AF5AC556C8568EFC /* AlertsViewModel.swift in Sources */,
+				842A2147D412E4A5AFAE63B9 /* AppDependencies.swift in Sources */,
+				09C397BEFC485BDAC7F5296F /* Card.swift in Sources */,
+				71706E28A7757E23C173EA07 /* CommuteAssistantApp.swift in Sources */,
+				8158C3CFFA3B1975DAAD0FB8 /* DepartureCard.swift in Sources */,
+				2AC6AE2E6A8E1EC60F866305 /* DisruptionBanner.swift in Sources */,
+				BA80DDA69F12BA1ED04A0BCF /* NotificationPreferencesView.swift in Sources */,
+				F5B4BE385109240B677127BE /* OnboardingFlow.swift in Sources */,
+				6DFFE4BC5B92882505C4C3CD /* PermissionsCoordinator.swift in Sources */,
+				809DBEECEF5E88894F0A0998 /* ReliabilityChip.swift in Sources */,
+				094804B1CDBFD052CF3030D7 /* RootView.swift in Sources */,
+				7715630A80C12A9ED8CAD4CA /* RouteDetailView.swift in Sources */,
+				796E27D5A930268E23991621 /* RouteEditorView.swift in Sources */,
+				1902F8D80A405C1F3E076423 /* RouteListView.swift in Sources */,
+				57B292C5C42E922B63793664 /* RouteViewModel.swift in Sources */,
+				D27A2A721B874A2258F0154B /* SettingsView.swift in Sources */,
+				CD7C11C9447C9B887002A6AE /* SeverityBadge.swift in Sources */,
+				A641EFD5F0463335B0E64304 /* StatusDot.swift in Sources */,
+				28DEF007195F775DAE328BA2 /* Theme.swift in Sources */,
+				6CE929604497FF25A05EE694 /* TodayView.swift in Sources */,
+				02069940CB143D0C98DCA12E /* TodayViewModel.swift in Sources */,
+				1648F10DF6ED5ED463105015 /* Typography.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221CF1F3D6AD8D16A48400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B5867C863711EE480755C /* CommuteIntentsExtension.swift in Sources */,
+				C732CE4B6340052F449A6597 /* RefreshCommuteIntent.swift in Sources */,
+				C61491FAF6C9436E46D160E9 /* ShortcutsProvider.swift in Sources */,
+				CDC612ECE37DA88F7CA29B6D /* ViewNextDepartureIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07180A428B7AEF25F563FAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510BA27CA27BF4E40E744975 /* CommuteKit */;
+			targetProxy = 4C1C260346D3B63ABAF79123 /* PBXContainerItemProxy */;
+		};
+		178D9AC4DF4F7A4ADAFB3EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AC492937AB259D2D5303BE /* CommuteIntents */;
+			targetProxy = E2C174BCCF91AFC164DEA8F0 /* PBXContainerItemProxy */;
+		};
+		3F69BDA6532B4FA1CB1D376C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9032C697696ED476977561E1 /* CommuteWidgets */;
+			targetProxy = A59EE7E24FAD9DBC8DE07B84 /* PBXContainerItemProxy */;
+		};
+		86C7FF6C7F441FF694521C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510BA27CA27BF4E40E744975 /* CommuteKit */;
+			targetProxy = A544854914DBF3B10753A207 /* PBXContainerItemProxy */;
+		};
+		C661D2D9D64A110347A482EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510BA27CA27BF4E40E744975 /* CommuteKit */;
+			targetProxy = 2C753BD916B3EFBD2F786AD6 /* PBXContainerItemProxy */;
+		};
+		EEAA2F4F288123EF7AD3CF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510BA27CA27BF4E40E744975 /* CommuteKit */;
+			targetProxy = C3F63C8215C475E923B6CFB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E9FC6A4ECEBE1487312F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CommuteWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10113501EDD4236856DD1C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.CommuteKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2057A1F93B5EA388AAA8E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CommuteAssistant/CommuteAssistant.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CommuteAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C2516E3F65FA5DCE6BE642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3774E66FD9920F460155B6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C054F21EA1C951BADF23E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CommuteWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A489E659624114BE8D1E73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CommuteAssistant/CommuteAssistant.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CommuteAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83ACE2BB753054897BBF6EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CommuteIntents/Info.plist;
+				INFOPLIST_KEY_EXAppExtensionAttributes_EXExtensionPointIdentifier = "com.apple.appintents-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app.intents;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A76E8DC638CFB732203293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.kit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		ACBBDF7A4DB2A42C6018DFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CommuteIntents/Info.plist;
+				INFOPLIST_KEY_EXAppExtensionAttributes_EXExtensionPointIdentifier = "com.apple.appintents-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.app.intents;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4B7E24B629A3919971E842F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.CommuteKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF438868F3CF1772353EB3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commuteassistant.kit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C219E43AD96361F5422F9EE /* Build configuration list for PBXProject "CommuteAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3774E66FD9920F460155B6DC /* Debug */,
+				35C2516E3F65FA5DCE6BE642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0D4099892A989D477E6DFC25 /* Build configuration list for PBXNativeTarget "CommuteWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C054F21EA1C951BADF23E28 /* Debug */,
+				03E9FC6A4ECEBE1487312F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5FAD0A271EE5E8CBE189D71A /* Build configuration list for PBXNativeTarget "CommuteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10113501EDD4236856DD1C44 /* Debug */,
+				E4B7E24B629A3919971E842F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7646370DCE66E2A19ED649E7 /* Build configuration list for PBXNativeTarget "CommuteAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2057A1F93B5EA388AAA8E742 /* Debug */,
+				5A489E659624114BE8D1E73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B57D06411C40951C0F62D196 /* Build configuration list for PBXNativeTarget "CommuteIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ACE2BB753054897BBF6EB4 /* Debug */,
+				ACBBDF7A4DB2A42C6018DFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1F621710EA5D452E4E7E3C8 /* Build configuration list for PBXNativeTarget "CommuteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A76E8DC638CFB732203293 /* Debug */,
+				FF438868F3CF1772353EB3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDD0EB3A402F6DCE80B8E11 /* Project object */;
+}
