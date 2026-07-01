@@ -1,4 +1,4 @@
-# CommuteAssistant
+# MBTA2Go
 
 An intelligent MBTA commute companion for iOS. CommuteAssistant tracks your daily transit routes, alerts you to disruptions before you leave home, and suggests when to head out based on real-time data and historical reliability patterns.
 
