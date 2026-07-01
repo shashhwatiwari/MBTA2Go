@@ -182,13 +182,6 @@ Tests cover:
 - **ReliabilityScorer**: on-time percentage calculation, percentile computation, edge cases
 - **CommuteWindowResolver**: "leave by" calculation with and without reliability padding
 
-## Future Work
-
-- **GTFS-RT protobuf decoding**: Full protobuf parsing for real-time trip updates and vehicle positions
-- **Remote push fallback**: A lightweight server polling MBTA and fanning out APNs pushes for sub-minute latency
-- **Geofence-based activity ending**: Automatically dismiss the Live Activity on arrival at the destination stop
-- **Historical data persistence**: Store prediction snapshots to build more accurate reliability scores over time
-- **Accessibility audit**: VoiceOver optimization, Dynamic Type support across all views
 
 ## License
 
